@@ -1,7 +1,7 @@
 /*
  * Processes data stored in lists
  */
-public final class ListProcessor {
+public final class ListProcessorOne {
 
     /*
    * Iteratively reverses an array
