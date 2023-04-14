@@ -2,10 +2,7 @@
  * Processes data stored in lists
  */
 public final class ListProcessorOne {
-
-    /*
-   * Iteratively reverses an array
-     */
+   //Iteratively reverses an array
     public static void loopReverse(int[] numbers) {
         int start = 0;
         int end = numbers.length - 1;
@@ -19,10 +16,7 @@ public final class ListProcessorOne {
             end--;
         }
     }
-
-    /*
-   * Recursively reverses an array
-     */
+   //Recursively reverses an array
     public static void recursiveReverse(int[] numbers, int start, int end) {
         if (start >= end) {
             return;
